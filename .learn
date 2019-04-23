@@ -11,3 +11,9 @@ languages:
   - HTML
   - CSS
 resources: 1
+const kerbbox= document.getElementById("kerben")
+function onkeydownfirst(){
+let text1= kerbbox.value
+const kerb= document.getElementById("kerb")
+kerb.innerHTML= kerbbox.value
+}
